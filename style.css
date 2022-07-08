@@ -56,10 +56,11 @@ h3 {
 
 .sms {
     width: 500px;
-    background-color:rgb(134, 209, 233);
+    background-color: cadetblue;
     border-radius: 30px;
     color: white;
     margin: 20px;
+    position: relative;
     padding: 30px;
 }
 

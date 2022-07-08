@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
     const date = new Date();
     const year = date.getFullYear();
     const month = date.getMonth() + 1;
-    const day = date.getDay();
+    const day = date.getDate();
     const hours = date.getHours();
     const minut = date.getMinutes();
 
@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
             <p>${message}</p>
             <span>${year}.${month}.${day}<br>${hours}:${minut}</span>
         </div>`;
-        }else if (!auditor && !message) {
+        }else if (!auditor && !messagegit ) {
             alert("Заполни поля");
         }
         else {
