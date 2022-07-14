@@ -28,6 +28,7 @@ form.addEventListener("submit", (e) => {
 
     const auditor = e.target[0].value;
     const message = e.target[1].value;
+    // const pass = e.target[2].value;
         if (auditor && message && auditor.length >= 4 && message.length >= 4 ) {
             komment.innerHTML += `
         <div class="sms">
@@ -74,9 +75,7 @@ myGame.addEventListener("click", () => {
             alert("Победил playerOne");
         }else if (playerOne == N && playerTwo == K || playerOne == B && playerTwo == N || playerOne == K && playerTwo == B) {
             alert("Победил playerTwo");
-        }else if (!playerOne || !playerTwo || playerOne != K || playerOne != N || playerOne != B || playerTwo != K || playerTwo != N || playerTwo != B){
-            alert("Это нечестно")
-        }else {
+        }else if (playerOne == K && playerTwo == K || playerOne == N && playerTwo == N || playerOne == B && playerTwo == B) {
             alert("Ничья");
         }
     }
@@ -96,3 +95,4 @@ const newArr = function(arr, str) {
     return list;
 }
 console.log(newArr(arr, "Hello"));
+

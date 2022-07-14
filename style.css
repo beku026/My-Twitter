@@ -1,27 +1,6 @@
 body {
-    /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(188,235,238,1) 13%, rgba(0,237,247,1) 26%, rgba(63,149,251,1) 39%, rgba(70,140,252,1) 52%, rgba(45,0,255,1) 63%, rgba(0,64,255,1) 70%, rgba(12,0,255,1) 81%, rgba(12,0,242,1) 87%, rgba(3,2,2,1) 100%); */
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(188,235,238,1) 13%, rgba(0,237,247,1) 26%, rgba(63,149,251,1) 39%, rgba(70,140,252,1) 52%, rgba(45,0,255,1) 63%, rgba(0,64,255,1) 70%, rgba(12,0,255,1) 81%, rgba(12,0,242,1) 87%, rgba(3,2,2,1) 100%);
 }
-
-h3 {
-    padding: 20px 10px 20px 10px;
-    border: 1px solid black;
-    width: 100%;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 20px 0px 20px 0px;
-    background-color: black;
-    color: darkorange;
-}
-
-p {
-    font-weight: 400;
-    font-size: 14px;
-    padding: 30px 0 10px 40px;
-}
-/* 
-
 .container {
     display: flex;
 }
@@ -110,4 +89,4 @@ span {
     .container {
         flex-direction: column;
     }
-} */
+}
